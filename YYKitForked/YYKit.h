@@ -11,99 +11,99 @@
 
 #import <Foundation/Foundation.h>
 
-#if __has_include(<YYKit/YYKit.h>)
+#if __has_include(<YYKitForked/YYKit.h>)
 
-FOUNDATION_EXPORT double YYKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char YYKitVersionString[];
+FOUNDATION_EXPORT double YYKitForkedVersionNumber;
+FOUNDATION_EXPORT const unsigned char YYKitForkedVersionString[];
 
-#import <YYKit/YYKitMacro.h>
-#import <YYKit/NSObject+YYAdd.h>
-#import <YYKit/NSObject+YYAddForKVO.h>
-#import <YYKit/NSObject+YYAddForARC.h>
-#import <YYKit/NSString+YYAdd.h>
-#import <YYKit/NSNumber+YYAdd.h>
-#import <YYKit/NSData+YYAdd.h>
-#import <YYKit/NSArray+YYAdd.h>
-#import <YYKit/NSDictionary+YYAdd.h>
-#import <YYKit/NSDate+YYAdd.h>
-#import <YYKit/NSNotificationCenter+YYAdd.h>
-#import <YYKit/NSKeyedUnarchiver+YYAdd.h>
-#import <YYKit/NSTimer+YYAdd.h>
-#import <YYKit/NSBundle+YYAdd.h>
-#import <YYKit/NSThread+YYAdd.h>
+#import <YYKitForked/YYKitMacro.h>
+#import <YYKitForked/NSObject+YYAdd.h>
+#import <YYKitForked/NSObject+YYAddForKVO.h>
+#import <YYKitForked/NSObject+YYAddForARC.h>
+#import <YYKitForked/NSString+YYAdd.h>
+#import <YYKitForked/NSNumber+YYAdd.h>
+#import <YYKitForked/NSData+YYAdd.h>
+#import <YYKitForked/NSArray+YYAdd.h>
+#import <YYKitForked/NSDictionary+YYAdd.h>
+#import <YYKitForked/NSDate+YYAdd.h>
+#import <YYKitForked/NSNotificationCenter+YYAdd.h>
+#import <YYKitForked/NSKeyedUnarchiver+YYAdd.h>
+#import <YYKitForked/NSTimer+YYAdd.h>
+#import <YYKitForked/NSBundle+YYAdd.h>
+#import <YYKitForked/NSThread+YYAdd.h>
 
-#import <YYKit/UIColor+YYAdd.h>
-#import <YYKit/UIImage+YYAdd.h>
-#import <YYKit/UIControl+YYAdd.h>
-#import <YYKit/UIBarButtonItem+YYAdd.h>
-#import <YYKit/UIGestureRecognizer+YYAdd.h>
-#import <YYKit/UIView+YYAdd.h>
-#import <YYKit/UIScrollView+YYAdd.h>
-#import <YYKit/UITableView+YYAdd.h>
-#import <YYKit/UITextField+YYAdd.h>
-#import <YYKit/UIScreen+YYAdd.h>
-#import <YYKit/UIDevice+YYAdd.h>
-#import <YYKit/UIApplication+YYAdd.h>
-#import <YYKit/UIFont+YYAdd.h>
-#import <YYKit/UIBezierPath+YYAdd.h>
+#import <YYKitForked/UIColor+YYAdd.h>
+#import <YYKitForked/UIImage+YYAdd.h>
+#import <YYKitForked/UIControl+YYAdd.h>
+#import <YYKitForked/UIBarButtonItem+YYAdd.h>
+#import <YYKitForked/UIGestureRecognizer+YYAdd.h>
+#import <YYKitForked/UIView+YYAdd.h>
+#import <YYKitForked/UIScrollView+YYAdd.h>
+#import <YYKitForked/UITableView+YYAdd.h>
+#import <YYKitForked/UITextField+YYAdd.h>
+#import <YYKitForked/UIScreen+YYAdd.h>
+#import <YYKitForked/UIDevice+YYAdd.h>
+#import <YYKitForked/UIApplication+YYAdd.h>
+#import <YYKitForked/UIFont+YYAdd.h>
+#import <YYKitForked/UIBezierPath+YYAdd.h>
 
-#import <YYKit/CALayer+YYAdd.h>
-#import <YYKit/YYCGUtilities.h>
+#import <YYKitForked/CALayer+YYAdd.h>
+#import <YYKitForked/YYCGUtilities.h>
 
-#import <YYKit/NSObject+YYModel.h>
-#import <YYKit/YYClassInfo.h>
+#import <YYKitForked/NSObject+YYModel.h>
+#import <YYKitForked/YYClassInfo.h>
 
-#import <YYKit/YYCache.h>
-#import <YYKit/YYMemoryCache.h>
-#import <YYKit/YYDiskCache.h>
-#import <YYKit/YYKVStorage.h>
+#import <YYKitForked/YYCache.h>
+#import <YYKitForked/YYMemoryCache.h>
+#import <YYKitForked/YYDiskCache.h>
+#import <YYKitForked/YYKVStorage.h>
 
-#import <YYKit/YYImage.h>
-#import <YYKit/YYFrameImage.h>
-#import <YYKit/YYSpriteSheetImage.h>
-#import <YYKit/YYAnimatedImageView.h>
-#import <YYKit/YYImageCoder.h>
-#import <YYKit/YYImageCache.h>
-#import <YYKit/YYWebImageOperation.h>
-#import <YYKit/YYWebImageManager.h>
-#import <YYKit/UIImageView+YYWebImage.h>
-#import <YYKit/UIButton+YYWebImage.h>
-#import <YYKit/MKAnnotationView+YYWebImage.h>
-#import <YYKit/CALayer+YYWebImage.h>
+#import <YYKitForked/YYImage.h>
+#import <YYKitForked/YYFrameImage.h>
+#import <YYKitForked/YYSpriteSheetImage.h>
+#import <YYKitForked/YYAnimatedImageView.h>
+#import <YYKitForked/YYImageCoder.h>
+#import <YYKitForked/YYImageCache.h>
+#import <YYKitForked/YYWebImageOperation.h>
+#import <YYKitForked/YYWebImageManager.h>
+#import <YYKitForked/UIImageView+YYWebImage.h>
+#import <YYKitForked/UIButton+YYWebImage.h>
+#import <YYKitForked/MKAnnotationView+YYWebImage.h>
+#import <YYKitForked/CALayer+YYWebImage.h>
 
-#import <YYKit/YYLabel.h>
-#import <YYKit/YYTextView.h>
-#import <YYKit/YYTextAttribute.h>
-#import <YYKit/YYTextArchiver.h>
-#import <YYKit/YYTextParser.h>
-#import <YYKit/YYTextUtilities.h>
-#import <YYKit/YYTextRunDelegate.h>
-#import <YYKit/YYTextRubyAnnotation.h>
-#import <YYKit/NSAttributedString+YYText.h>
-#import <YYKit/NSParagraphStyle+YYText.h>
-#import <YYKit/UIPasteboard+YYText.h>
-#import <YYKit/YYTextLayout.h>
-#import <YYKit/YYTextLine.h>
-#import <YYKit/YYTextInput.h>
-#import <YYKit/YYTextDebugOption.h>
-#import <YYKit/YYTextContainerView.h>
-#import <YYKit/YYTextSelectionView.h>
-#import <YYKit/YYTextMagnifier.h>
-#import <YYKit/YYTextEffectWindow.h>
-#import <YYKit/YYTextKeyboardManager.h>
+#import <YYKitForked/YYLabel.h>
+#import <YYKitForked/YYTextView.h>
+#import <YYKitForked/YYTextAttribute.h>
+#import <YYKitForked/YYTextArchiver.h>
+#import <YYKitForked/YYTextParser.h>
+#import <YYKitForked/YYTextUtilities.h>
+#import <YYKitForked/YYTextRunDelegate.h>
+#import <YYKitForked/YYTextRubyAnnotation.h>
+#import <YYKitForked/NSAttributedString+YYText.h>
+#import <YYKitForked/NSParagraphStyle+YYText.h>
+#import <YYKitForked/UIPasteboard+YYText.h>
+#import <YYKitForked/YYTextLayout.h>
+#import <YYKitForked/YYTextLine.h>
+#import <YYKitForked/YYTextInput.h>
+#import <YYKitForked/YYTextDebugOption.h>
+#import <YYKitForked/YYTextContainerView.h>
+#import <YYKitForked/YYTextSelectionView.h>
+#import <YYKitForked/YYTextMagnifier.h>
+#import <YYKitForked/YYTextEffectWindow.h>
+#import <YYKitForked/YYTextKeyboardManager.h>
 
-#import <YYKit/YYReachability.h>
-#import <YYKit/YYGestureRecognizer.h>
-#import <YYKit/YYFileHash.h>
-#import <YYKit/YYKeychain.h>
-#import <YYKit/YYWeakProxy.h>
-#import <YYKit/YYTimer.h>
-#import <YYKit/YYTransaction.h>
-#import <YYKit/YYAsyncLayer.h>
-#import <YYKit/YYSentinel.h>
-#import <YYKit/YYDispatchQueuePool.h>
-#import <YYKit/YYThreadSafeArray.h>
-#import <YYKit/YYThreadSafeDictionary.h>
+#import <YYKitForked/YYReachability.h>
+#import <YYKitForked/YYGestureRecognizer.h>
+#import <YYKitForked/YYFileHash.h>
+#import <YYKitForked/YYKeychain.h>
+#import <YYKitForked/YYWeakProxy.h>
+#import <YYKitForked/YYTimer.h>
+#import <YYKitForked/YYTransaction.h>
+#import <YYKitForked/YYAsyncLayer.h>
+#import <YYKitForked/YYSentinel.h>
+#import <YYKitForked/YYDispatchQueuePool.h>
+#import <YYKitForked/YYThreadSafeArray.h>
+#import <YYKitForked/YYThreadSafeDictionary.h>
 
 #else
 
